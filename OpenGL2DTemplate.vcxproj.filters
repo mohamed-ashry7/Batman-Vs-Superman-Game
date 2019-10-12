@@ -18,10 +18,12 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OpenGL2DTemplate.cpp">
+    <ClInclude Include="stb_image.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="bezier.cpp">
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenGL2DTemplate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
