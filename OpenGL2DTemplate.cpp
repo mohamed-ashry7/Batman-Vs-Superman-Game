@@ -4,7 +4,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <cmath>
-
+#include <Windows.h>
 
 
 
@@ -1537,7 +1537,7 @@ void Display() {
 			drawFlames(FX, FY);
 		}
 
-		debug();
+		//debug();
 
 	}
 	glFlush();
@@ -1579,8 +1579,11 @@ void Anim() {
 	cloudX += 1;
 	waterDropY -= 1;
 	lightTime -= 0.01;
+	//mciSendString("play sounds\\back.wav ", NULL, 0, NULL);
 
-
+	/*if (lightTime > 0) {
+		mciSendString("play sounds\\thunder.wav", NULL, 0, NULL);
+	}*/
 	DoveX += deltaDoveX;
 	DoveY += deltaDoveY;
 	if (DoveX < 0) {
@@ -1652,6 +1655,7 @@ void Anim() {
 
 	if (collideWithObstacle(curX, curY) || collideWithOpponent(curX, curY) || t >= 1) {
 		finishTheShot = true;
+		mciSendString("play sounds\\BAZOOKA+1.wav", NULL, 0, NULL);
 	}
 
 
@@ -1687,6 +1691,7 @@ void Anim() {
 	}
 	if (isDown) {
 		power += 1;
+		mciSendString("play sounds\\Missile+2.wav", NULL, 0, NULL);
 	}
 	else {
 		power = 0;
