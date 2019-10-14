@@ -10,4 +10,5 @@
 
 ![pic1](sc1.png)
 ![pic2](sc2.png)
-![pic2](sc3.png)
+![pic3](sc3.png)
+![pic4](sc4.png)
