@@ -1109,7 +1109,7 @@ bool collideWithOpponent(int x, int y) {
 		if (x >= supermanX && x <= supermanX + 50 && y >= supermanY && y <= supermanY + 50 ||
 			x >= supermanX - 20 && x <= supermanX + 50 + 20 && y >= supermanY - 70 && y <= supermanY) {
 			regularSuperman = false;
-			healthSuperman -= 24;
+			healthSuperman -= 48;
 			flameTime = 5;
 			FX = x;
 			FY = y;
@@ -1120,7 +1120,7 @@ bool collideWithOpponent(int x, int y) {
 		if (x >= batmanX && x <= batmanX + 50 && y >= batmanY && y <= batmanY + 50 ||
 			x >= batmanX - 20 && x <= batmanX + 50 + 20 && y >= batmanY - 70 && y <= batmanY) {
 			regularBatman = false;
-			healBatman -= 24;
+			healBatman -= 48;
 			flameTime = 5;
 			FX = x;
 			FY = y;
@@ -1653,9 +1653,15 @@ void Anim() {
 		goRight = false;
 	}
 
-	if (collideWithObstacle(curX, curY) || collideWithOpponent(curX, curY) || t >= 1) {
+	if (collideWithObstacle(curX, curY)  || t >= 1) {
 		finishTheShot = true;
 		mciSendString("play sounds\\BAZOOKA+1.wav", NULL, 0, NULL);
+	}
+	if (collideWithOpponent(curX, curY)) {
+		finishTheShot = true;
+		mciSendString("play sounds\\BAZOOKA+1.wav", NULL, 0, NULL);
+		mciSendString("play sounds\\Drone.wav", NULL, 0, NULL);
+
 	}
 
 
