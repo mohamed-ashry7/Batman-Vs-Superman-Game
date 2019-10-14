@@ -1,3 +1,15 @@
-﻿  OpenGL2DTemplate.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Texture19.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  OpenGL2DTemplate.cpp
+A:\GUC Syllabus\Semester 7\Computer Graphics DMET 502\Assignments\sourceCode\OpenGL2DTemplate.cpp(1255,22): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+A:\GUC Syllabus\Semester 7\Computer Graphics DMET 502\Assignments\sourceCode\OpenGL2DTemplate.cpp(1238,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : see declaration of 'sprintf'
+A:\GUC Syllabus\Semester 7\Computer Graphics DMET 502\Assignments\sourceCode\OpenGL2DTemplate.cpp(1242,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : see declaration of 'sprintf'
+A:\GUC Syllabus\Semester 7\Computer Graphics DMET 502\Assignments\sourceCode\OpenGL2DTemplate.cpp(1246,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : see declaration of 'sprintf'
+A:\GUC Syllabus\Semester 7\Computer Graphics DMET 502\Assignments\sourceCode\OpenGL2DTemplate.cpp(1250,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : see declaration of 'sprintf'
+A:\GUC Syllabus\Semester 7\Computer Graphics DMET 502\Assignments\sourceCode\OpenGL2DTemplate.cpp(1255,1): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message : see declaration of 'sprintf'
 OpenGL2DTemplate.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
   OpenGL2DTemplate.vcxproj -> A:\GUC Syllabus\Semester 7\Computer Graphics DMET 502\Assignments\sourceCode\Debug\OpenGL2DTemplate.exe
