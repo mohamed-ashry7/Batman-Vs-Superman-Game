@@ -55,7 +55,7 @@ int curX = 0;
 int curY = 0;
 
 // to track the winners ;
-bool batmanWin = false;
+bool batmanWin = true;
 bool supermanWin = false;
 
 double waterDropY = 510;
