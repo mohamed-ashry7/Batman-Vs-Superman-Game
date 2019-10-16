@@ -8,8 +8,8 @@
 1)use visual studio by opening openGL2DTemplate.sln and then run . 
 2)use any other IDE (VScode or atom ..) but you must first handle the openGL libs paths .
 
-![pic1](imgs\\sc1.png)
-![pic2](imgs\\ssc2.png)
-![pic3](imgs\\ssc3.png)
-![pic4](imgs\\ssc4.png)
-![pic4](imgs\\ssc5.png)
+![pic1](sc1.png)
+![pic2](sc2.png)
+![pic3](sc3.png)
+![pic4](sc4.png)
+![pic4](sc5.png)
