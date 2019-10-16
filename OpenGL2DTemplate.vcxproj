@@ -84,9 +84,6 @@
   <ItemGroup>
     <ClCompile Include="OpenGL2DTemplate.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="stb_image.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
