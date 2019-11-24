@@ -5,8 +5,7 @@
 * just mouse-left click and hold it to control the power . 
 * The player who gets the first 5 shots is the winner . 
 ## To run it :
-1)use visual studio by opening openGL2DTemplate.sln and then run . 
-2)use any other IDE (VScode or atom ..) but you must first handle the openGL libs paths .
+## in linux or windows you have to configure glut lib in the OS and run it whether in VScode or visual studio or any other IDE
 
 ![pic1](sc1.png)
 ![pic2](sc2.png)
